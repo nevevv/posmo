@@ -238,7 +238,6 @@ html {
 .how__content-items {
   width: 250px;
   height: 150px;
-  background: #d9d9d9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -667,6 +666,14 @@ html {
   .clients {
     padding-bottom: 28vh;
   }
+  .header__content-title {
+    font-size: 25px;
+  }
 }
 
 
+@media(max-width:360px) {
+  .how__content-items {
+    width: 320px; 
+  }
+}
