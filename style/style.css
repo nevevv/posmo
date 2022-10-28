@@ -667,6 +667,9 @@ html {
   .header__content-title {
     font-size: 25px;
   }
+  .services {
+    padding-bottom: 48vh;
+  }
 }
 
 
