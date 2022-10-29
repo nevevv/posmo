@@ -670,6 +670,9 @@ html {
   .services {
     padding-bottom: 48vh;
   }
+  .header {
+    height:107vh;
+  }
 }
 
 
