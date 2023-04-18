@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SlotSpot</title>
+
+    <link rel="stylesheet" href="style/all.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+      integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style/slick.css" />
+
+    <link rel="icon" href="images/favicon.png" />
+
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" width="169" height="36" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center header__nav-list"
+            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Функции</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                  >Контакты</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <select
+                  class="form-select border-0 bg-transparent"
+                  aria-label="Default select example"
+                >
+                  <option selected>Русский</option>
+                  <option value="en">English</option>
+                  <option value="oz">O'zbek</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+          <a
+            class="header__nav-link d-flex align-items-center gap-2 header_top-link"
+            href="#!"
+            >Оставить заявку
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </nav>
+      <div class="header__content">
+        <div class="container-fluid">
+          <h1 class="header__content-title">
+            Простая и <span>универсальная</span> система бронирования
+          </h1>
+          <a
+            class="header__nav-link d-flex align-items-center gap-2 justify-content-center"
+            href="#!"
+            style="width: max-content; margin: 0 auto"
+            >Оставить заявку
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="slider_section">
+        <div class="slider">
+          <div class="slider__item">
+            <img src="images/photo-3.webp" alt="" />
+          </div>
+          <div class="slider__item">
+            <img src="images/photo-4.webp" alt="" />
+          </div>
+          <div class="slider__item">
+            <img src="images/photo-5.webp" alt="" />
+          </div>
+          <div class="slider__item">
+            <img src="images/photo-1.webp" alt="" />
+          </div>
+          <div class="slider__item">
+            <img src="images/photo-2.webp" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="text-section">
+        <div class="container">
+          <h2 class="text__title">
+            Мы делаем процесс бронирования в салонах красоты более простым,
+            удобным и быстрым, а также улучшить опыт взаимодействия между
+            клиентами и салонами красоты в целом.
+          </h2>
+          <a
+            class="header__nav-link d-flex align-items-center gap-2"
+            href="#!"
+            style="background: #c9eaae; width: max-content"
+            >Хочу внести свой вклад
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="container">
+          <div class="main_content">
+            <div class="main_content-item">
+              <div class="left">
+                <h4>Автоматизация</h4>
+                <h2>Хотите автоматизировать бизнес процессы?</h2>
+                <p>
+                  Управление персоналом, услугами салона, расписание мастеров,
+                  зарплатный проект и многое другое
+                </p>
+                <a
+                  class="header__nav-link d-flex align-items-center gap-2"
+                  href="#!"
+                  style="background: #d4f4fc; width: max-content"
+                  >Оставить заявку
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+              </div>
+              <div class="right">
+                <img src="images/main_content.png" alt="" />
+              </div>
+            </div>
+            <div class="main_content-item">
+              <div class="left">
+                <h4>CRM система</h4>
+                <h2>Управление клиентской базой</h2>
+                <p>
+                  Хотите удержать новых клиентов? Делать маркетинговые рассылки
+                  и отправлять напоминалки клиентам?
+                </p>
+                <a
+                  class="header__nav-link d-flex align-items-center gap-2"
+                  href="#!"
+                  style="background: #d4f4fc; width: max-content"
+                  >Посмотреть все функции
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+              </div>
+            </div>
+            <div class="main_content-item">
+              <div class="left">
+                <h4>Приложение</h4>
+                <h2>Хотите привлечь новых клиентов?</h2>
+                <p>
+                  С одного приложения можно принимать брони, получать отзывы,
+                  отправлять Push-уведомления и устраивать акции
+                </p>
+                <div class="img">
+                  <li>
+                    <a href="#!">
+                      <img src="images/google.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!">
+                      <img src="images/apple.png" alt="" />
+                    </a>
+                  </li>
+                  <span>Скоро</span>
+                </div>
+              </div>
+            </div>
+            <div class="main_content-item">
+              <img src="images/main_content-2.png" alt="" />
+            </div>
+            <div class="main_content-item">
+              <img src="images/main_content-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="function-section">
+        <!-- <img src="images/Ellipse 3.png" alt="" class="function_img"/> -->
+        <div class="container-fluid">
+          <div class="function">
+            <div class="function_item">
+              <div class="function_item-icon" style="background: #fbe7f1">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <ellipse cx="12" cy="16.5" rx="6" ry="2.5" stroke="#BE3178" />
+                  <circle cx="12" cy="8" r="3" stroke="#BE3178" />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.44547 13.2615C5.20689 13.313 4.06913 13.5361 3.18592 13.8894C2.68122 14.0913 2.22245 14.3505 1.87759 14.6766C1.53115 15.0042 1.25 15.4512 1.25 16C1.25 16.5488 1.53115 16.9958 1.87759 17.3234C2.22245 17.6495 2.68122 17.9087 3.18592 18.1106C3.68571 18.3105 4.26701 18.4687 4.90197 18.5778C4.40834 18.0453 4.09852 17.4503 4.01985 16.8195C3.92341 16.787 3.83104 16.7531 3.74301 16.7179C3.34289 16.5578 3.06943 16.386 2.90826 16.2336C2.7498 16.0837 2.74999 16.0046 2.75 16.0001L2.75 16L2.75 15.9999C2.74999 15.9954 2.7498 15.9163 2.90826 15.7664C3.06943 15.614 3.34289 15.4422 3.74301 15.2821C3.94597 15.201 4.17201 15.1266 4.41787 15.0608C4.83157 14.371 5.53447 13.756 6.44547 13.2615Z"
+                    stroke="#BE3178"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M19.9803 16.8195C19.9016 17.4503 19.5918 18.0453 19.0982 18.5778C19.7331 18.4687 20.3144 18.3105 20.8142 18.1106C21.3189 17.9087 21.7777 17.6495 22.1226 17.3234C22.469 16.9958 22.7502 16.5488 22.7502 16C22.7502 15.4512 22.469 15.0042 22.1226 14.6766C21.7777 14.3505 21.3189 14.0913 20.8142 13.8894C19.931 13.5361 18.7933 13.313 17.5547 13.2615C18.4657 13.756 19.1686 14.371 19.5823 15.0608C19.8281 15.1266 20.0542 15.201 20.2571 15.2821C20.6573 15.4422 20.9307 15.614 21.0919 15.7664C21.2503 15.9163 21.2502 15.9954 21.2502 15.9999V16V16.0001C21.2502 16.0046 21.2503 16.0837 21.0919 16.2336C20.9307 16.386 20.6573 16.5578 20.2571 16.7179C20.1691 16.7531 20.0767 16.787 19.9803 16.8195Z"
+                    stroke="#BE3178"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M16.5142 10.1522C16.2943 10.6126 16.0061 11.0341 15.6626 11.4036C16.0584 11.6243 16.5144 11.75 16.9998 11.75C18.5186 11.75 19.7498 10.5188 19.7498 9C19.7498 7.48122 18.5186 6.25 16.9998 6.25C16.8955 6.25 16.7926 6.2558 16.6914 6.26711C16.8634 6.73272 16.9681 7.23096 16.9937 7.75001C16.9957 7.75 16.9978 7.75 16.9998 7.75C17.6902 7.75 18.2498 8.30964 18.2498 9C18.2498 9.69036 17.6902 10.25 16.9998 10.25C16.8276 10.25 16.6635 10.2152 16.5142 10.1522Z"
+                    stroke="#BE3178"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.30845 6.26711C7.20719 6.2558 7.10427 6.25 7 6.25C5.48122 6.25 4.25 7.48122 4.25 9C4.25 10.5188 5.48122 11.75 7 11.75C7.48537 11.75 7.94138 11.6243 8.33721 11.4036C7.99374 11.0341 7.70549 10.6126 7.4856 10.1522C7.33631 10.2152 7.17222 10.25 7 10.25C6.30964 10.25 5.75 9.69036 5.75 9C5.75 8.30964 6.30964 7.75 7 7.75C7.00205 7.75 7.00409 7.75 7.00614 7.75001C7.0317 7.23096 7.13641 6.73272 7.30845 6.26711Z"
+                    stroke="#BE3178"
+                  />
+                </svg>
+              </div>
+              <h3 class="functions_item-title">Управление персоналом</h3>
+              <p class="functions_item-text">
+                Зарплатный проект, график работ, посещаемость сотрудника
+              </p>
+            </div>
+            <div class="function_item">
+              <div class="function_item-icon" style="background: #c1edfb">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 8V12L15 15M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="#111827"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="stroke: #34768b"
+                  />
+                </svg>
+              </div>
+              <h3 class="functions_item-title">Управление персоналом</h3>
+              <p class="functions_item-text">
+                Зарплатный проект, график работ, посещаемость сотрудника
+              </p>
+            </div>
+            <div class="function_item">
+              <div class="function_item-icon" style="background: #e2fec7">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.3246 4.31731C10.751 2.5609 13.249 2.5609 13.6754 4.31731C13.9508 5.45193 15.2507 5.99038 16.2478 5.38285C17.7913 4.44239 19.5576 6.2087 18.6172 7.75218C18.0096 8.74925 18.5481 10.0492 19.6827 10.3246C21.4391 10.751 21.4391 13.249 19.6827 13.6754C18.5481 13.9508 18.0096 15.2507 18.6172 16.2478C19.5576 17.7913 17.7913 19.5576 16.2478 18.6172C15.2507 18.0096 13.9508 18.5481 13.6754 19.6827C13.249 21.4391 10.751 21.4391 10.3246 19.6827C10.0492 18.5481 8.74926 18.0096 7.75219 18.6172C6.2087 19.5576 4.44239 17.7913 5.38285 16.2478C5.99038 15.2507 5.45193 13.9508 4.31731 13.6754C2.5609 13.249 2.5609 10.751 4.31731 10.3246C5.45193 10.0492 5.99037 8.74926 5.38285 7.75218C4.44239 6.2087 6.2087 4.44239 7.75219 5.38285C8.74926 5.99037 10.0492 5.45193 10.3246 4.31731Z"
+                    stroke="#111827"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="stroke: #77a34d"
+                  />
+                  <path
+                    d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z"
+                    stroke="#111827"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="stroke: #77a34d"
+                  />
+                </svg>
+              </div>
+              <h3 class="functions_item-title">Управление персоналом</h3>
+              <p class="functions_item-text">
+                Зарплатный проект, график работ, посещаемость сотрудника
+              </p>
+            </div>
+            <div class="function_item">
+              <div class="function_item-icon" style="background: #e5dcfc">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 20H22V18C22 16.3431 20.6569 15 19 15C18.0444 15 17.1931 15.4468 16.6438 16.1429M17 20H7M17 20V18C17 17.3438 16.8736 16.717 16.6438 16.1429M7 20H2V18C2 16.3431 3.34315 15 5 15C5.95561 15 6.80686 15.4468 7.35625 16.1429M7 20V18C7 17.3438 7.12642 16.717 7.35625 16.1429M7.35625 16.1429C8.0935 14.301 9.89482 13 12 13C14.1052 13 15.9065 14.301 16.6438 16.1429M15 7C15 8.65685 13.6569 10 12 10C10.3431 10 9 8.65685 9 7C9 5.34315 10.3431 4 12 4C13.6569 4 15 5.34315 15 7ZM21 10C21 11.1046 20.1046 12 19 12C17.8954 12 17 11.1046 17 10C17 8.89543 17.8954 8 19 8C20.1046 8 21 8.89543 21 10ZM7 10C7 11.1046 6.10457 12 5 12C3.89543 12 3 11.1046 3 10C3 8.89543 3.89543 8 5 8C6.10457 8 7 8.89543 7 10Z"
+                    stroke="#111827"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="stroke: #684bb1"
+                  />
+                </svg>
+              </div>
+              <h3 class="functions_item-title">Управление персоналом</h3>
+              <p class="functions_item-text">
+                Зарплатный проект, график работ, посещаемость сотрудника
+              </p>
+            </div>
+            <div class="function_item">
+              <div class="function_item-icon" style="background: #fefaab">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11 5.88218V19.2402C11 20.2121 10.2121 21 9.24018 21C8.49646 21 7.83302 20.5325 7.58288 19.8321L5.43647 13.6829M18 13C19.6569 13 21 11.6569 21 10C21 8.34315 19.6569 7 18 7M5.43647 13.6829C4.0043 13.0741 3 11.6543 3 10C3 7.79086 4.79086 6 6.99999 6H8.83208C12.9327 6 16.4569 4.7659 18 3L18 17C16.4569 15.2341 12.9327 14 8.83208 14L6.99998 14C6.44518 14 5.91677 13.887 5.43647 13.6829Z"
+                    stroke="#111827"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="stroke: #a7a12f"
+                  />
+                </svg>
+              </div>
+              <h3 class="functions_item-title">Управление персоналом</h3>
+              <p class="functions_item-text">
+                Зарплатный проект, график работ, посещаемость сотрудника
+              </p>
+            </div>
+            <div class="function_item">
+              <div class="function_item-icon" style="background: #e5dbfc">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="5"
+                    y="2"
+                    width="14"
+                    height="20"
+                    rx="3"
+                    stroke="#28303F"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    style="stroke: #7257b0"
+                  />
+                  <path
+                    d="M11 19H13"
+                    stroke="#28303F"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="stroke: #7257b0"
+                  />
+                  <path
+                    d="M12 7V11"
+                    stroke="#28303F"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="stroke: #7257b0"
+                  />
+                  <circle cx="12" cy="14" r="1" fill="#28303F" />
+                </svg>
+              </div>
+              <h3 class="functions_item-title">Управление персоналом</h3>
+              <p class="functions_item-text">
+                Зарплатный проект, график работ, посещаемость сотрудника
+              </p>
+            </div>
+            <div class="function_item">
+              <div class="function_item-icon" style="background: #fceee0">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13 10V3L4 14H11L11 21L20 10L13 10Z"
+                    stroke="#111827"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="stroke: #b48a60"
+                  />
+                </svg>
+              </div>
+              <h3 class="functions_item-title">Управление персоналом</h3>
+              <p class="functions_item-text">
+                Зарплатный проект, график работ, посещаемость сотрудника
+              </p>
+            </div>
+            <div class="function_item">
+              <div class="function_item-icon" style="background: #f8d4cb">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.31802 6.31802C2.56066 8.07538 2.56066 10.9246 4.31802 12.682L12.0001 20.364L19.682 12.682C21.4393 10.9246 21.4393 8.07538 19.682 6.31802C17.9246 4.56066 15.0754 4.56066 13.318 6.31802L12.0001 7.63609L10.682 6.31802C8.92462 4.56066 6.07538 4.56066 4.31802 6.31802Z"
+                    stroke="#111827"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="stroke: #b66e5c"
+                  />
+                </svg>
+              </div>
+              <h3 class="functions_item-title">Управление персоналом</h3>
+              <p class="functions_item-text">
+                Зарплатный проект, график работ, посещаемость сотрудника
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe-section">
+        <div class="container">
+          <div class="subscribe-content">
+            <div class="left">
+              <h2>Нас уже 200+ Присоединяйтесь к нам</h2>
+              <a href="#!"
+                >Посмотреть список партнеров
+                <span><i class="fa-solid fa-arrow-right"></i></span
+              ></a>
+            </div>
+            <div class="right">
+              <img src="images/sub_img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__logo">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="footer__head">
+          <h2 class="footer__head-title">
+            Простая и универсальная система бронирования
+          </h2>
+          <p class="footer__head-text">+998 90 934 46 57</p>
+        </div>
+        <div class="footer__content">
+          <ul class="footer__content-right">
+            <li class="footer__content-link">
+              <a href="#!"> © Slotspot App LLC</a>
+            </li>
+            <li class="footer__content-link">
+              <a href="#!"> Все права защищены</a>
+            </li>
+          </ul>
+          <ul class="footer__content-left">
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal-bg"></div>
+
+    <div class="modal">
+      <div class="modal__head">
+        <h3>Отправить заявку</h3>
+        <i class="fa-solid fa-xmark close"></i>
+      </div>
+
+      <form class="form">
+        <div class="form__fields">
+          <label for="">Полное имя</label>
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Например Роберт Фокс" />
+          </div>
+        </div>
+        <div class="form__fields">
+          <label for="">Номер телефона</label>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <input type="text" placeholder="Например +998 90 934 46 57" />
+          </div>
+        </div>
+        <div class="form__fields">
+          <label for="">Название бизнеса</label>
+          <div>
+            <i class="fa-regular fa-building"></i>
+            <input type="text" placeholder="Например Slotspot App" />
+          </div>
+        </div>
+        <div class="form__fields">
+          <label for="">Категория бизнеса</label>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Выберите из списка</option>
+              <option value="1">Студия красоты</option>
+              <option value="2">SPA-салон</option>
+              <option value="3">Барбершоп</option>
+              <option value="4">Караоке бар</option>
+            </select>
+          </div>
+        </div>
+        <div class="form__fields">
+          <label for="">Ссылка в соц. сетяи или веб сайт</label>
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <input
+              type="text"
+              placeholder="Например https://instagram.com/slotspot.app"
+            />
+          </div>
+        </div>
+        <div class="form_btn">
+          <button class="form_btn-send">
+            Отправить <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="slick.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="all.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
