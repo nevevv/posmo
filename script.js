@@ -52,8 +52,20 @@ $(".header__nav-link").click(() => {
     });
   });
 
-  // Send Button
+  // Кнопка отправить
   $(".form_btn-send").click(() => {
+    $(modal).css({
+      opacity: "0",
+      visibility: "hidden",
+    });
+    $(".modal-bg").css({
+      opacity: "0",
+      visibility: "hidden",
+    });
+  });
+  
+  // Удаление модального окна по клику на фон
+  $(".modal-bg").click(() => {
     $(modal).css({
       opacity: "0",
       visibility: "hidden",

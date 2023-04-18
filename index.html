@@ -209,7 +209,6 @@
       </section>
 
       <section class="function-section">
-        <!-- <img src="images/Ellipse 3.png" alt="" class="function_img"/> -->
         <div class="container-fluid">
           <div class="function">
             <div class="function_item">
@@ -517,39 +516,58 @@
         <h3>Отправить заявку</h3>
         <i class="fa-solid fa-xmark close"></i>
       </div>
-
-      <form class="form">
+      <form class="form" action="sendmail.php">
         <div class="form__fields">
           <label for="">Полное имя</label>
           <div>
             <i class="fa-solid fa-user"></i>
-            <input type="text" placeholder="Например Роберт Фокс" />
+            <input
+              type="text"
+              placeholder="Например Роберт Фокс"
+              name="name"
+              required
+            />
           </div>
         </div>
         <div class="form__fields">
           <label for="">Номер телефона</label>
           <div>
             <i class="fa-solid fa-phone"></i>
-            <input type="text" placeholder="Например +998 90 934 46 57" />
+            <input
+              type="text"
+              placeholder="Например +998 90 934 46 57"
+              name="phone"
+              required
+            />
           </div>
         </div>
         <div class="form__fields">
           <label for="">Название бизнеса</label>
           <div>
             <i class="fa-regular fa-building"></i>
-            <input type="text" placeholder="Например Slotspot App" />
+            <input
+              type="text"
+              placeholder="Например Slotspot App"
+              name="busines_name"
+              required
+            />
           </div>
         </div>
         <div class="form__fields">
           <label for="">Категория бизнеса</label>
           <div>
             <i class="fa-solid fa-star"></i>
-            <select class="form-select" aria-label="Default select example">
+            <select
+              class="form-select"
+              aria-label="Default select example"
+              name="busines_cat"
+              required
+            >
               <option selected>Выберите из списка</option>
-              <option value="1">Студия красоты</option>
-              <option value="2">SPA-салон</option>
-              <option value="3">Барбершоп</option>
-              <option value="4">Караоке бар</option>
+              <option value="Студия красоты<">Студия красоты</option>
+              <option value="SPA-салон">SPA-салон</option>
+              <option value="Барбершоп">Барбершоп</option>
+              <option value="Караоке бар">Караоке бар</option>
             </select>
           </div>
         </div>
@@ -558,8 +576,10 @@
           <div>
             <i class="fa-solid fa-globe"></i>
             <input
+              required
               type="text"
               placeholder="Например https://instagram.com/slotspot.app"
+              name="link"
             />
           </div>
         </div>
