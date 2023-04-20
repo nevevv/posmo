@@ -494,6 +494,8 @@ ul {
 
 
 @media(max-width:992px) {
+
+
     .main {
         padding-top: 35px;
     }
@@ -791,6 +793,10 @@ ul {
 
     .form_btn button {
         padding: 5px 30px;
+    }
+
+    .modal {
+        width: 65vw;
     }
 }
 
